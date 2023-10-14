@@ -1,0 +1,571 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #555;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+a {
+    color: #4CA6C0;
+    text-decoration: none;
+}
+a:hover {
+    color: #19414D;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+
+@font-face {
+    font-family: 'dinengschriftregular';
+    src: url('../fonts/dine1-webfont.eot');
+    src: url('../fonts/dine1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dine1-webfont.woff') format('woff'),
+         url('../fonts/dine1-webfont.ttf') format('truetype'),
+         url('../fonts/dine1-webfont.svg#dinengschriftregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font: 16px/26px Georgia, Times, Cambria, serif;
+    background: #eee;
+}
+
+* {
+    /*
+    transition:all .2s linear; 
+    -o-transition:all .2s linear; 
+    -moz-transition:all .2s linear; 
+    -webkit-transition:all .2s linear;
+    */
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    /* border-bottom: 20px solid #e44d26; */
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container { }
+.footer-container,
+.main aside {
+    background: #000;
+}
+
+.title {
+    color: #333;
+    font: normal 2.5em 'Adobe Caslon Pro', Georgia, Times, serif;
+    text-align: center;
+}
+
+.title small {
+    font-size: 0.5em;
+    display: block;
+}
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-list li {
+    background: #fff;
+    position: relative;
+    padding: 0 0 0 100px;
+    min-height: 100px;
+    
+    /*border: 5px solid #fff;*/
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.project-list h2 {
+    margin: 0;
+    font:normal 1.4em/1 'dinengschriftregular', Helvetica, Helvetica Neue, Arial;
+}
+.project-list h2 a,
+.project-list h2 .project-name {
+    display: block;
+    padding: 19px;
+}
+
+.project-list h2 .project-name {
+    background-image:none;
+}
+
+.project-list h2 em {
+    display: block;
+    font-size: 70%;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 5px;
+}
+
+.project-list .thumbnail {
+    display: block;
+    border-right: 5px solid #fff;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.project-list li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 400%;
+    display: block;
+}
+
+.project-list .thumbnail span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent url('../img/thumb-overlay-mobile.png') no-repeat right bottom;
+}
+
+.project-details {
+    display: none;
+}
+
+
+.size-status span { display:none; }
+.size-status .mobile { display:inline; }
+
+.retired {
+    display: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 479px) {
+
+    .project-list h2 a {
+        min-height: 62px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+
+    .header-container .wrapper {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .title {
+        font-size: 3em;
+        margin-top: 3em;
+    }
+
+    .title small {
+        font-size: 0.5em;
+    }
+
+    .size-status .size-480 { display:inline; }
+
+
+    .wrapper {
+        width: 90%;
+        max-width: 666px;
+        margin: 0 auto;
+    }
+
+
+    .project-list {
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+
+    .project-list li {
+        padding: 0 0 0 175px;
+        min-height: 155px;
+        border: 10px solid #fff;
+        margin-bottom: 20px;
+    }
+
+    .project-list h2 {
+        margin-bottom: 8px;
+        font-size: 2em;
+    }
+
+    .project-list h2 a,
+    .project-list h2 .project-name {
+        display: block;
+        min-height: auto;
+        padding:9px 46px 9px 19px;
+    }
+
+    .project-list h2 a {
+        background:transparent url('../img/link-arrow.png') no-repeat 95% 50%;
+        cursor: pointer;
+    }
+
+    .project-list h2 a:hover,
+    .project-list h2 a:focus {
+        background-color: #eee;
+    }
+
+    .project-list h2 em {
+        font-size: 50%;
+    }
+
+    .project-list h2 a em {
+        line-height:1.6;
+    }
+
+    .project-list .thumbnail {
+        width: 175px;
+        border-right:10px solid #fff;
+    }
+
+
+    .project-list .thumbnail span {
+        background: transparent url('../img/thumb-overlay-480.png') no-repeat right bottom;
+    }
+
+    .project-list li img {
+        height: 275%;
+    }
+
+    .project-details {
+        display: block;
+        overflow: hidden;
+        padding: 0 19px 0.5em;
+        margin: 0;
+    }
+
+    .project-details dt {
+        font-weight: bold;
+        display: inline-block;
+        /*float: left;*/
+        clear: left;
+        /*width: 24%;*/
+    }
+    .project-details dt.site-link {
+        visibility: hidden;
+    }
+    .project-details dd {
+        /*float: left;
+        width: 64%;*/
+        display: inline-block;
+    }
+    .project-details .site-description {
+        display: none;
+    }
+
+    .project-details dd {
+        margin: 0;
+    }
+
+    
+
+    .site-link a:hover,
+    .site-link a:focus  {
+        background: #19414D;
+    }
+
+    .retired {
+        display: block;
+        background: #4CA6C0;
+        padding: 0 10px;
+        margin-top: 8px;
+        margin-left: 20px;
+        float: left;
+        font:normal 0.85em/1.5 Helvetica, 'Helvetica Neue', Arial;
+        color:#fff;
+        position: relative;
+        text-transform: uppercase;
+        background:#721618;
+    }
+
+    /* ========================
+    INTERMEDIATE: IE Fixes
+    ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+@media only screen and (min-width: 1140px) {
+
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
